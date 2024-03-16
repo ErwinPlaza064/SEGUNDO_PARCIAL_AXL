@@ -1,0 +1,51 @@
+ion-content {
+    --background: #f8f9fa;
+  }
+  
+  ion-header {
+    --background: #007bff; 
+  }
+  
+ 
+  ion-title {
+    color: white; 
+  }
+  
+
+  ion-card {
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(255, 4, 4, 0.1);
+  }
+  
+  /* Style for ion-card-header */
+  ion-card-header {
+    background-color: #007bff; /* Change this to the desired card header background color */
+    color: white; /* Change this to the desired card header text color */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  /* Style for ion-card-content */
+  ion-card-content {
+    padding: 15px;
+  }
+  
+  /* Style for ion-button */
+  ion-button {
+    --background: #2f15c2; /* Change this to the desired button background color */
+    --color: rgb(255, 242, 242); /* Change this to the desired button text color */
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Style for #container */
+  #container {
+    padding: 10px;
+    text-align: center; /* Centra los elementos internos */
+    margin: auto; /* Márgenes automáticos para centrar horizontalmente */
+    margin-top: 29vh; /* Mueve el contenedor hacia arriba la mitad de la altura de la ventana */
+    transform: translateY(-50%); /* Corrige la posición vertical */
+  }
+  
+  
